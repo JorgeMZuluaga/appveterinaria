@@ -1,0 +1,39 @@
+.weather-app {
+    text-align: center;
+    background: white;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 30px 50px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
